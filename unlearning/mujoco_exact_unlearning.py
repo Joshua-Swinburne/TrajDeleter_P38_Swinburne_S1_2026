@@ -16,6 +16,7 @@ def main(args):
     d3rlpy.seed(args.seed)
     
     #test_comment
+    #test_comment_2
     if args.algo == "CQL":
         algorithm = d3rlpy.algos.CQL.from_json(args.model, use_gpu=True)
     elif args.algo == "BCQ":
