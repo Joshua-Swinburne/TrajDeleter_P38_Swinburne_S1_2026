@@ -15,7 +15,7 @@ def main(args):
     dataset, env = d3rlpy.datasets.get_d4rl(args.dataset)
     d3rlpy.seed(args.seed)
     
-    
+    #test_comment
     if args.algo == "CQL":
         algorithm = d3rlpy.algos.CQL.from_json(args.model, use_gpu=True)
     elif args.algo == "BCQ":
