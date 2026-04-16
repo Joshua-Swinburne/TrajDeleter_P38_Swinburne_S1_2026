@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATC  --job-name=test_run_trajdeleter_001
+#SBATCH  --job-name=test_run_trajdeleter_001
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=8
